@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Página de Juegos</title>
+  <style type="text/css">
+    body {
+      color: rgb(220, 22, 22);
+      background-image: url('PROYECTO11.JPG');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    #seccion1 {
+      font-size: 30px;
+      text-align: center;
+      margin-top: 2px;
+    }
+
+    button {
+      font-size: 20px;
+      padding: 15px 30px;
+      margin: 10px;
+      border-radius: 10px;
+      background-color: yellow;
+      color: black;
+      border: none;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+    }
+
+    .proyecto {
+      color: white;
+      text-align: center;
+    }
+
+    .proyecto img {
+      max-width: 100%;
+      border-radius: 10px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .marco {
+      border: 8px solid transparent;
+      padding: 40px;
+      border-image: linear-gradient(45deg, red, yellow, blue) 1;
+      box-shadow: 0 0 40px 15px rgba(0, 255, 255, 0.7);
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 200px;
+      max-width: 800px;
+      margin: 40px auto;
+      text-align: center;
+    }
+
+    .Formulario {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 20px;
+      max-width: 400px;
+      margin: 40px auto;
+      text-align: center;
+      color: white;
+      box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+    }
+
+    .Formulario input {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+      font-size: 16px;
+      border-radius: 10px;
+      border: none;
+    }
+
+    footer {
+      text-align: center;
+      color: white;
+      padding: 20px;
+      font-size: 18px;
+      background-color: rgba(0, 0, 0, 0.6);
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section id="seccion1">
+    <h1>Bienvenido</h1>
+  </section>
+
+
+  <form class="Formulario" id="Formulario">
+    <h2>LOGIN</h2>
+
+    <label for="NOMBRE"></label><br>
+    <input type="text" id="NOMBRE" placeholder="Ingresa tu nombre"><br>
+
+    <label for="clave"></label><br>
+    <input type="password" id="clave" placeholder="Ingresa tu contraseña"><br>
+
+    <button type="button" onclick="entrar()">Ingresar</button>
+  </form>
+ <script src="miproyect.js"></script>  
+  
+  <div class="marco">
+    <div class="proyecto">
+      <p>Adéntrate en una colección de videojuegos que te dejarán huella, ofreciéndote múltiples aventuras y emociones desafiantes.</p>
+      
+    </div>
+  </div>
+  <footer>
+    Gracias por visitar nuestra página de juegos. ¡Diviértete explorando!
+  </footer>
+
+</body>
+</html>
