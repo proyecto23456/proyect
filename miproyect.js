@@ -9,8 +9,8 @@ function entrar() {
         "Bravo": "456",
         "Ruben":"111",
         "Bravo": "456",
-        "Astrid": "123",
-    
+        "Astrid": "123"
+    "sintia": "123",
     };
 
     if (usuarios[NOMBRE] === clave) {
